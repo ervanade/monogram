@@ -2,6 +2,7 @@ import NavigationBar from "./components/NavigationBar/NavigationBar";
 import Hero from "./components/hero/Hero";
 import About from "./components/About/About";
 import Discover from "./components/Discover/Discover";
+import Services from "./components/services/Services";
 import './style/style.css'
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       </div>
       <About />
       <Discover />
+      <Services />
     </div>
   );
 }
