@@ -5,7 +5,7 @@ import { AiFillCamera, AiFillAppstore } from 'react-icons/ai'
 import { BsBadge3DFill } from 'react-icons/bs'
 import branding from '../../assets/img/portfolio/portfolio-1.jpg'
 import marketing from '../../assets/img/portfolio/marketing.jpg'
-import webdev from '../../assets/img/portfolio/portfolio-2.jpg'
+import webdev from '../../assets/img/portfolio/webdev.jpg'
 import AOS from "aos";
 import "aos/dist/aos.css";
 
