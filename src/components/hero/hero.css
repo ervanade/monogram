@@ -26,14 +26,22 @@ video {
     height: 100%;
     background-color: rgba(0, 0, 0, .5);
 }
-.content Button{
+.button {
+    color: white !important;
     background-color: transparent !important;
-    border-color: black;
+    border-color: black !important;
     padding: 15px 50px;
 }
-.content Button:hover {
+.content a{
+    background-color: transparent !important;
+    border: 1px solid black;
+    padding: 15px 50px;
+    text-decoration: none;
+}
+.content a:hover {
 background-color: black !important;
 border-color: white;
+cursor: pointer;
 }
 .main .content h1 {
     font-family: "Roboto", sans-serif;
