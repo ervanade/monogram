@@ -29,8 +29,12 @@ video {
 .content Button{
     background-color: transparent !important;
     border-color: black;
+    padding: 15px 50px;
 }
 .content Button:hover {
 background-color: black !important;
 border-color: white;
+}
+.main .content h1 {
+    font-family: "Roboto", sans-serif;
 }

@@ -17,7 +17,7 @@ const Hero = () => {
         <div className='content'>
           <h1>Grow your Business</h1>
           <h1>Build Your Website</h1>
-          <Button className='mt-3'>START A PROJECT > </Button>
+          <Button className='mt-3 button'>START A PROJECT > </Button>
         </div>
     </div>
   )
