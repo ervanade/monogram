@@ -19,3 +19,12 @@
   color: #000000;
   font-size: 1.1rem;
 }
+
+@media screen and (max-width: 767px) {
+    .about-main{
+      /* width: 50% !important; */
+      justify-content: center !important;
+      align-items: center !important;
+      padding: 5px 30px;
+    }
+  }

@@ -29,3 +29,11 @@
     margin: 0;
     padding: 0;
   }
+  @media screen and (max-width: 767px) {
+    .whyus p{
+      /* width: 50% !important; */
+      justify-content: center !important;
+      align-items: center !important;
+      padding: 5px 20px;
+    }
+  }

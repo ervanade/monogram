@@ -2,17 +2,21 @@
 .navbar-links ul {
     list-style: none;
     display: flex;
+    position: relative;
 }
 .navbar-links ul li{
     display: flex;
     text-decoration: none;
     color: #fff;
 }
-.navbar-links ul li:hover{
+.active:hover{
+    color: black;
+}
+.navbar-links ul .nav-item:hover{
     text-decoration: none;
-    color: white;
-    padding-bottom: 12px;
-    border-bottom: 3px solid white;
+    color: black;
+    background-color: white;
+    padding: 0px 8px;
 }
 .navbar-links_logo:hover{
     cursor: pointer;

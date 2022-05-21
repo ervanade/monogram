@@ -33,3 +33,9 @@
     position: relative;
     padding-bottom: 12px;
 }
+
+@media screen and (max-width: 576px) {
+  .footer{
+    padding: 0px 20px;
+  }
+}

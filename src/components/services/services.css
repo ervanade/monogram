@@ -50,3 +50,11 @@
     cursor: pointer;
     color: #5c9f24;
 }
+@media screen and (max-width: 767px) {
+    .services p{
+      /* width: 50% !important; */
+      justify-content: center !important;
+      align-items: center !important;
+      padding: 5px 20px;
+    }
+  }
