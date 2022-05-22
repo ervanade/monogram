@@ -11,8 +11,13 @@
   display: inline-block;
   line-height: 1;
 }
+.footer p {
+  color: #fff;
+  line-height: 1.4;
+}
 .footer a:hover {
     color: #5c9f24;
+    cursor: pointer;
 }
 .footer ul {
   list-style: none;
@@ -32,6 +37,10 @@
     color: #fff;
     position: relative;
     padding-bottom: 12px;
+}
+.footer .social-links a{
+  font-size: 20px;
+  margin-right: 30px;
 }
 
 @media screen and (max-width: 576px) {
