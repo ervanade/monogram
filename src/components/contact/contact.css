@@ -6,7 +6,7 @@
 .form Button:hover {
 background-color: white !important;
 border-color: black;
-color: black;
+color: black !important;
 }
 .contact h1 {
     font-family: "Roboto", sans-serif;

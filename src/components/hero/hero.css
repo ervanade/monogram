@@ -30,12 +30,12 @@ video {
     color: white !important;
     background-color: transparent !important;
     border-color: black !important;
-    padding: 15px 50px;
+    padding: 10px 40px;
 }
 .content a{
     background-color: transparent !important;
     border: 1px solid black;
-    padding: 15px 50px;
+    padding: 10px 40px;
     text-decoration: none;
 }
 .content a:hover {
@@ -45,4 +45,37 @@ cursor: pointer;
 }
 .main .content h1 {
     font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+}
+.build .website {
+    width: 22em;
+}
+.build .website {
+    background-color: white;
+    margin-left: 10px;
+}
+.build .website h1{
+    color: black;
+    font-weight: bold;
+}
+.build {
+    display: flex;
+}
+
+@media screen and (max-width: 640px) {
+    .content .build {
+        display: block;
+    }
+    .content .build h1 {
+        text-align: center;
+    }
+    
+}
+@media screen and (max-width: 500px) {
+    .main .content h1 {
+        text-align: center;
+        font-size: 40px;
+    }
+   
 }

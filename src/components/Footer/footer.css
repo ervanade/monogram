@@ -58,6 +58,11 @@
   color: white;
   border-color: white;
 }
+.footer button:hover {
+  background-color: white !important;
+  border-color: white !important;
+  color: black !important;
+  }
 
 @media screen and (max-width: 576px) {
   .footer{
