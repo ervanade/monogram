@@ -1,14 +1,8 @@
-import React, { useEffect} from 'react'
+import React from 'react'
 import { Col, Row, Container } from 'react-bootstrap'
 import './about.css'
-import AOS from "aos";
-import "aos/dist/aos.css";
 
 const About = () => {
-  useEffect(() => {
-    AOS.init();
-    AOS.refresh();
-  }, []);
   return (
     <div className='about-main' id='about' >
             <Container className="about" > 

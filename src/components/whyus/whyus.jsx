@@ -1,14 +1,8 @@
-import React, { useEffect} from 'react'
+import React from 'react'
 import { Col, Row, Container, Card } from 'react-bootstrap'
 import './whyus.css'
-import AOS from "aos";
-import "aos/dist/aos.css";
 
 const Whyus = () => {
-  useEffect(() => {
-    AOS.init();
-    AOS.refresh();
-  }, []);
   return (
     <div >
         <Container className='mt-5 whyus'>

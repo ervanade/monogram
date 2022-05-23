@@ -37,3 +37,11 @@
       padding: 5px 20px;
     }
   }
+  @media screen and (min-width: 767px) and (max-width: 1000px) {
+    .whyus .box:hover{
+      background: #000000;
+       padding: 0px 0px 0px 0px;
+      box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.18);
+      color: #fff;
+  }
+  }

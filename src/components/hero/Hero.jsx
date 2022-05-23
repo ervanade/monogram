@@ -1,8 +1,6 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import videoBg from '../../assets/img/background.mp4'
 import './hero.css'
-import AOS from "aos";
-import "aos/dist/aos.css";
 import { Link } from 'react-scroll'
 import { BiChevronDown } from 'react-icons/bi'
 import TypeAnimation from 'react-type-animation'
@@ -12,10 +10,7 @@ import 'swiper/css';
 
 
 const Hero = () => {
-  useEffect(() => {
-    AOS.init();
-    AOS.refresh();
-  }, []);
+  
   return (
    
     <div className='main'>
@@ -55,7 +50,7 @@ const Hero = () => {
             />
             </div>
            </div>
-          <Link to="contact" className='mt-5 button' spy={true} smooth={true} offset={-300} duration={300} data-aos="fade-up">START A PROJECT <BiChevronDown size={40} className="text-center"/> </Link>
+          <Link to="contact" className='mt-5 button' spy={true} smooth={true} offset={-100} duration={300} data-aos="fade-up">START A PROJECT <BiChevronDown size={40} className="text-center"/> </Link>
         
         </div>
           

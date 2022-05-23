@@ -1,22 +1,17 @@
-import React, { useEffect} from 'react'
+import React from 'react'
 import { Col, Row, Container, Image } from 'react-bootstrap'
 import about from '../../assets/img/about.jpg'
 import './discover.css'
 import { BiAnalyse } from 'react-icons/bi'
-import AOS from "aos";
-import "aos/dist/aos.css";
 
 const Discover = () => {
-  useEffect(() => {
-    AOS.init();
-    AOS.refresh();
-  }, []);
+
   return (
     <div>
            <Container className="mt-5 process">
             <Row >
                 <Col md={5} className="image ">
-                   <Image src={about} className="img" data-aos="fade-up-right" />
+                   <Image src={about} className="img" data-aos="fade-up-right"  data-aos-offset="-100" />
                 </Col>
                 <Col md={7} className='mt-3 ml-3'>
                   <h1 data-aos="flip-right">OUR PROCESS</h1>

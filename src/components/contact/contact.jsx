@@ -1,13 +1,8 @@
-import React, { useEffect} from 'react'
+import React  from 'react'
 import { Container, Row, Col, Form, Button} from 'react-bootstrap'
 import './contact.css'
-import AOS from "aos";
-import "aos/dist/aos.css";
 const Contact = () => {
-    useEffect( () => {
-        AOS.init()
-        AOS.refresh()
-    },[])
+    
   return (
     <div>
         <Container className='contact'>
