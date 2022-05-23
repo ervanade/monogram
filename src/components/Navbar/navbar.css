@@ -7,8 +7,9 @@
 .navbar-links ul li{
     display: flex;
     text-decoration: none;
-    color: #fff;
+    color: rgba(255,255,255,0.8);
 }
+
 .active:hover{
     color: black;
 }
@@ -49,12 +50,12 @@
 .navbar-menu_container-links a:hover{
     color: unset;
     text-decoration: none;
-    color: rgb(97, 66, 236);
+    color: #5c9f24;
 }
 .navbar-menu_container-links p:hover{
     color: unset;
     text-decoration: none;
-    color: rgb(97, 66, 236);
+    color: #5c9f24;
 }
 .navbar-menu_container-links p{
     text-decoration: none;
@@ -81,13 +82,17 @@
 }
 .navbar-links_logo {
     justify-content: flex-start;
+    display: flex;
+    align-items: center
 }
 
 .navbar-links_logo img {
     display: flex;
-    max-width: 150px;
+    max-width: 200px;
+    margin-top: -15px;
     max-height: 150px;
     justify-content: flex-start;
+    align-items: center;
 }
 
 

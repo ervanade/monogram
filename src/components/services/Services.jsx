@@ -34,7 +34,7 @@ const Services = () => {
                     <p className='text-center mt-3' data-aos="zoom-out">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
                 </Col>
                 <Col className='d-flex justify-content-center align-items-center icon'>
-                <div className='box text-center' data-aos="fade-up" data-aos-offset="100" data-aos-easing="ease-in-sine"><Image src={marketing}></Image></div>
+                <div className='box text-center' data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease-in-sine"><Image src={marketing}></Image></div>
                 <h3 className='text-center' data-aos="zoom-out">Marketing</h3>
                 <p className='text-center mt-3' data-aos="zoom-out">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
                 </Col>
@@ -51,7 +51,7 @@ const Services = () => {
                     <p className='text-center mt-3' data-aos="zoom-out">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
                 </Col>
                 <Col className='d-flex justify-content-center align-items-center icon'>
-                <div className='box text-center' data-aos="fade-up" data-aos-offset="100" data-aos-easing="ease-in-sine"><AiFillCamera color="#000" size={40} /></div>
+                <div className='box text-center' data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease-in-sine"><AiFillCamera color="#000" size={40} /></div>
                 <h3 className='text-center' data-aos="zoom-out">Photo Video</h3>
                 <p className='text-center mt-3' data-aos="zoom-out">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
                 </Col>

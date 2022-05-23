@@ -1,16 +1,17 @@
 import React from 'react'
 import './footer.css'
-import { Container, Row, Col } from 'react-bootstrap'
+import { Container, Row, Col, Form, Button } from 'react-bootstrap'
 import { BiChevronRight } from 'react-icons/bi'
 import { Link } from 'react-scroll'
 import { BsFacebook, BsInstagram, BsTwitter, BsYoutube } from "react-icons/bs";
 
 const Footer = () => {
-  return (
+    return (
+      <>
     <div className='footer mt-5'>
         <Container>
             <Row className='mt-5 pt-5' >
-                <Col md={3}><h2>Monogram</h2>
+                <Col md={3} data-aos="fade-up"><h2>Monogram</h2>
                 <p>
                 Rasantika Twin<br/>
                 Jl Pejaten Barat 17A.<br/>Jakarta Selatan 12510<br/>
@@ -24,7 +25,7 @@ const Footer = () => {
                 <a href="http://youtube.com" className="google-plus mr-3"><BsYoutube /></a>
                  </div>
                 </Col>
-                <Col md={6}>
+                <Col md={6} data-aos="fade-up">
                 <Row>
                     <Col md={6}>
                     <h3>Links</h3>
@@ -36,7 +37,7 @@ const Footer = () => {
                     <li><BiChevronRight Size={50} className="right-icon" /><Link to="contact" spy={true} smooth={true} offset={-50} duration={300}>Contact</Link></li>
                 </ul>
                     </Col>
-                    <Col md={6}>
+                    <Col md={6} data-aos="fade-up">
                     <h3>Services</h3>
                     <ul className='links'>
                     <li><BiChevronRight Size={50} className="right-icon" /><a href="#Home">Web Design</a></li>
@@ -48,20 +49,49 @@ const Footer = () => {
                     </Col>
                 </Row>
                 </Col> 
-                <Col md={3}>
+                <Col md={3} data-aos="fade-up">
                     <h3>
                     Our News Later
                     </h3>
                         <p>Tamen quem nulla quae legam multos aute sint culpa</p>
+                        <Form>
+                         <Row>
+                        <Col md={9} className="form-group" data-aos="fade-up-right"> 
+                        <Form.Control type="text"/>
+                        </Col>
+                        <Col md={3} className="form-group" data-aos="fade-up-left"> 
+                        <Button>Subscribe</Button>
+                        </Col>
+                    </Row>
+                        </Form>
                     </Col>
             </Row>
         </Container>
-        <Container>
-            <div className='copyright'>
-                
-            </div>
-        </Container>
     </div>
+            <div className='copyright' >
+            <Container>
+
+            <Row>
+                <Col md={12}>
+                    <div>
+                        <p>
+                    &copy; Copyright <strong><span>CPXi Asia</span></strong>. All Rights Reserved
+                        </p>
+                    </div>
+                </Col>
+            </Row>
+            <Row>
+                <Col md={12}>
+                    <div>
+                        <p>
+                        Designed by <a href="https://cpxi-asia.com/">CPXi Asia</a>
+                        </p>
+                    </div>
+                </Col>
+            </Row>
+            </Container>
+            </div>
+            </>
   )
 }
 
