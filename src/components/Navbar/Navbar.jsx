@@ -18,10 +18,10 @@ const Navbar = () => {
       <div className="navbar-links">
         <ul>
           <li className='nav-item'><Link to="hero" spy={true} smooth={true} offset={-100} duration={300}>HOME</Link></li>
-          <li className='nav-item'><Link to="about" spy={true} smooth={true} offset={-120} duration={300}>ABOUT US</Link></li>
+          <li className='nav-item'><Link to="about" spy={true} smooth={true} offset={-150} duration={300}>ABOUT US</Link></li>
           <li className='nav-item'><Link to="services" spy={true} smooth={true} offset={-100} duration={300}>WHAT WE DO</Link></li>
           <li className='nav-item'><Link to="whyus" spy={true} smooth={true} offset={-100} duration={300}>OUR WORK</Link></li>
-          <li ><Link className="btn"to="contact" spy={true} smooth={true} offset={0} duration={300}>START A PROJECT</Link></li>
+          <li ><Link className="btn"to="contact" spy={true} smooth={true} offset={-50} duration={300}>START A PROJECT</Link></li>
         </ul>
         {/* <div className="navbar-links_container">
           <p><a href="#home">HOME</a></p>
@@ -39,10 +39,10 @@ const Navbar = () => {
         <div className="navbar-menu_container scale-up-center">
           <div className="navbar-menu_container-links">
           <p><Link to="hero" spy={true} smooth={true} offset={-100} duration={300}>HOME</Link></p>
-          <p><Link to="about" spy={true} smooth={true} offset={-100} duration={300}>ABOUT US</Link></p>
+          <p><Link to="about" spy={true} smooth={true} offset={-150} duration={300}>ABOUT US</Link></p>
           <p><Link to="services" spy={true} smooth={true} offset={-100} duration={300}>WHAT WE DO</Link></p>
-          <p><Link to="whyus" spy={true} smooth={true} offset={-150} duration={300}>OUR WORK</Link></p>
-          <p><Link to="contact" spy={true} smooth={true} offset={-300} duration={300}>START A PROJECT</Link></p>
+          <p><Link to="whyus" spy={true} smooth={true} offset={-100} duration={300}>OUR WORK</Link></p>
+          <p><Link to="contact" spy={true} smooth={true} offset={-50} duration={300}>START A PROJECT</Link></p>
           </div>
         </div>
         )}
