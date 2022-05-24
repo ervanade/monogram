@@ -5,9 +5,6 @@ import { Link } from 'react-scroll'
 import { BiChevronDown } from 'react-icons/bi'
 import TypeAnimation from 'react-type-animation'
 
-// Import Swiper styles
-import 'swiper/css';
-
 
 const Hero = () => {
   

@@ -11,7 +11,12 @@ import Footer from "./components/Footer/Footer";
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import ReactGA from 'react-ga';
+
 function App() {
+  const TRACKING_ID = "UA-229744572-1"; // OUR_TRACKING_ID
+  ReactGA.initialize(TRACKING_ID);
+  ReactGA.pageview(window.location.pathname + window.location.search);
   useEffect(() => {
     AOS.init();
     AOS.refresh();
